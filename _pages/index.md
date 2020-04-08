@@ -8,7 +8,7 @@ modalId: "upgrade-notification"
 modalCacheRef: "3.3.1"
 ---
 
-<link href="/assets/vendors/mediabox/mediabox.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/vendors/mediabox/mediabox.css" rel="stylesheet">
 <style>
   .hero-buttons {
     margin: 50px 0;
@@ -17,7 +17,7 @@ modalCacheRef: "3.3.1"
     border: 2px solid #f15b22;
   }
   .banner {
-    background: url("/assets/img/home/gplaypattern.png");
+    background: url("{{ site.baseurl }}/assets/img/home/gplaypattern.png");
     padding: 12em 0 13em;
     animation: animatedBackground 15s linear infinite;
     -moz-animation: animatedBackground 15s linear infinite;
@@ -122,7 +122,7 @@ modalCacheRef: "3.3.1"
       <div id="tab-1" class="tab-pane active">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/gold.svg"}}" alt="gold"/>
+            <img class="animated mb-4" id="tab-gold" style="max-width: 150px;margin-top: 15px;" src="{{"{{ site.baseurl }}/assets/img/svg/gold.svg"}}" alt="gold"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
             <h3 class="text-white">Representing a share of a project</h3>
@@ -160,7 +160,7 @@ modalCacheRef: "3.3.1"
       <div id="tab-3" class="tab-pane">
         <div class="flex flex-wrap">
           <div class="w-full md:w-1/3 lg:w-1/4 text-center">
-            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"/assets/img/svg/token.svg"}}" alt="token"/>
+            <img class="animated mb-4" id="tab-token" style="max-width: 150px;margin-top: 15px;" src="{{"{{ site.baseurl }}/assets/img/svg/token.svg"}}" alt="token"/>
           </div>
           <div class="sm:w-full md:w-2/3 lg:w-3/4">
            <h3 class="text-white">Representing real world custodied physical or digital asset</h3>
@@ -207,7 +207,7 @@ modalCacheRef: "3.3.1"
         </ul>
       </div>
       <div class="w-full sm:w-full md:w-1/4 text-center hidden md:block">
-        <img id="logo-why" class="animated" style="margin-top: 30px;" src="{{"/assets/img/home/raven-flock.png"}}" alt="ravencoin logo">
+        <img id="logo-why" class="animated" style="margin-top: 30px;" src="{{"{{ site.baseurl }}/assets/img/home/raven-flock.png"}}" alt="ravencoin logo">
       </div>
     </div>
   </div>
@@ -242,7 +242,7 @@ modalCacheRef: "3.3.1"
   </div>
 </div>
 
-<script src="/assets/vendors/mediabox/mediabox.js"></script>
+<script src="{{ site.baseurl }}/assets/vendors/mediabox/mediabox.js"></script>
 <script>
   MediaBox('.mediabox');
 </script>
